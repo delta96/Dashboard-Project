@@ -38,10 +38,32 @@ body {
 
 .logo p{
     display: inline-block;
+    font-size: 30px;
+}
+
+.logo div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
 }
 
 .groupOne p {
     display: inline-block;
+}
+
+.groupOne div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.groupTwo div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
 }
 
 .groupTwo p {
@@ -92,12 +114,17 @@ body {
     display: grid;
     grid-template-columns: 1fr 6fr;
     grid-template-rows: 1fr 1fr;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    font-weight: bold;
+    
 }
 
 .banner img {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     justify-self: center;
+    padding-right: 15px;
 }
 
 .name {
@@ -215,6 +242,7 @@ body {
     border-right: white;
     border-top: white;
     border-bottom: white;
+    gap: 15px;
 }
 
 .buttons {
